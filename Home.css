@@ -1,0 +1,85 @@
+
+body{ 
+    background-image: url("Images/Fondo.jpg");
+    font-family: Courier;}
+
+header{
+    margin-left: 60px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 187, 0);
+    background-color: rgb(39, 41, 59);
+    border-radius: 5px;
+    font-size: 15px;}
+
+.titulo{
+    color: rgb(255, 0, 0);
+    border: inset;
+    border-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    background-color: rgb(12, 88, 107);
+    font-size: 25px;
+    font-family:'Palatino';}
+
+historia{ 
+    height: 40px;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12.5px;
+    color: white;
+    background-color: rgb(131, 0, 0);
+    border-radius: 5px;}
+
+.img {  
+    height: 275px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;}
+
+footer{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 187, 0);
+    background-color: rgb(39, 41, 59);
+    border-radius: 5px;
+    font-size: 15px;}
+
+.logo{
+    color: rgb(255, 255, 255);
+    border: inset;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Palatino';}
+
+p1{
+    font-size: 12px;
+    color: gray;}
+
+p2{
+    font-size: 12px;
+    color: gray;}
+
+.enlace:visited {
+    color: rgb(255, 187, 0);} 
+            
+.enlace:hover {
+    color: rgb(255, 0, 0);}
+    
+.enlace:active {
+    background-color: black;
+    color: white;}
+    
+
+
