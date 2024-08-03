@@ -1,9 +1,10 @@
 
-body{ 
+body { 
     background-image: url("Images/Fondo.jpg");
     font-family: Courier;}
 
-header{
+header {
+    margin-top: 10px;
     margin-left: 60px;
     width: 90%;
     height: 40px;
@@ -14,8 +15,8 @@ header{
     background-color: rgb(39, 41, 59);
     border-radius: 5px;
     font-size: 15px;}
-
-.titulo{
+ 
+.titulo {
     color: rgb(255, 0, 0);
     border: inset;
     border-color: rgb(255, 187, 0);
@@ -24,8 +25,48 @@ header{
     font-size: 25px;
     font-family:'Palatino';}
 
-footer{
-    margin-top: 60px;
+tit2{ 
+    width: 90% ;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;}
+
+dato {   
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 60px;
+    display: flex;
+    color: white;
+    justify-content: space-between;}
+
+form {
+    display: flex;
+    width: 47%;
+    height: 400px;
+    color: rgb(255, 187, 0);
+    background: rgb(39, 41, 59);
+    border-radius: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+info { 
+    margin-top: 80px;
+    display: flex;
+    height: 150px;
+    width: 50%;
+    color: black;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    align-items: center;}
+
+footer {
+    margin-top: 135px;
     margin-left: 60px;
     width: 90%;
     height: 40px;
@@ -37,7 +78,7 @@ footer{
     border-radius: 5px;
     font-size: 15px;}
 
-.logo{
+.logo {
     color: rgb(255, 255, 255);
     border: inset;
     border-color: rgb(255, 255, 255);
@@ -45,11 +86,11 @@ footer{
     font-size: 20px;
     font-family:'Palatino';}
 
-p1{
+p1 {
     font-size: 12px;
     color: gray;}
 
-p2{
+p2 {
     font-size: 12px;
     color: gray;}
 
